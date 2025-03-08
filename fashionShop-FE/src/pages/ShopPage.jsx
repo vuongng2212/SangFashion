@@ -20,10 +20,6 @@ const ShopPage = () => {
 
   return (
     <>
-      {/* Page Preloder */}
-      <div id="preloder">
-        <div className="loader"></div>
-      </div>
 
       {/* Breadcrumb Section */}
       <section className="breadcrumb-option">

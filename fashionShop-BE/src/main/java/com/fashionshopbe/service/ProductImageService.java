@@ -12,7 +12,7 @@ public class ProductImageService {
     @Autowired
     private ProductImageRepository productImageRepository;
 
-    public List<ProductImage> getImagesByProductId(int productId) {
+    public List<ProductImage> getImagesByProductId(long productId) {
         return productImageRepository.findByProductId(productId);
     }
 }

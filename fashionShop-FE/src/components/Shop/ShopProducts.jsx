@@ -12,27 +12,6 @@ const ProductItem = styled.div`
   cursor: pointer;
 `;
 
-const SAMPLE_PRODUCTS = [
-  {
-    id: 1,
-    name: "Piqué Biker Jacket",
-    price: 67.24,
-    image: "/src/assets/img/product/product-2.jpg",
-    rating: 0,
-    colors: ["default", "black", "grey"],
-    isNew: false,
-  },
-  {
-    id: 2,
-    name: "Multi-pocket Chest Bag",
-    price: 43.48,
-    image: "/src/assets/img/product/product-3.jpg",
-    rating: 4,
-    colors: ["default", "black", "grey"],
-    isNew: true,
-  },
-  // ... Thêm các sản phẩm mẫu khác
-];
 
 const ShopProducts = ({ filters }) => {
   const [products, setProducts] = useState([]);

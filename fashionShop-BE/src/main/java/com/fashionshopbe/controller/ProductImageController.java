@@ -17,7 +17,7 @@ public class ProductImageController {
     }
 
     @GetMapping("/getImagesByProductId/{productId}")
-    public List<ProductImage> getImagesByProductId(@PathVariable int productId) {
+    public List<ProductImage> getImagesByProductId(@PathVariable("productId") long productId) {
         return productImageService.getImagesByProductId(productId);
     }
 }

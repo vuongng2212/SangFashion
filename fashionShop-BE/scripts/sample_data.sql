@@ -71,6 +71,11 @@ VALUE
     ('https://imgur.com/IwGxCLV', true, 9),
     ('https://imgur.com/nYdY42y', false, 10),
     ('https://imgur.com/nYdY42y', true, 10),
-    ('https://imgur.com/DqDRCwR', true, 10);
+    ('https://imgur.com/DqDRCwR', true, 10),
+    ('https://imgur.com/01ylA0Z',false, 11),
+    ('https://imgur.com/01ylA0Z', true, 11),
+    ('https://imgur.com/pMRM1tj', true, 11),
+    ('https://imgur.com/ZuGJ3LI', true, 11);
+
 
 
