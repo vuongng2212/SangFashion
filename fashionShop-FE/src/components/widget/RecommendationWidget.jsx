@@ -7,7 +7,7 @@ const WidgetContainer = styled.div`
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 300px;
+  width: 450px;
   background: white;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -28,7 +28,7 @@ const WidgetHeader = styled.div`
 
 const ChatContainer = styled.div`
   padding: 10px;
-  max-height: 250px;
+  max-height: 450px;
   overflow-y: auto;
 `;
 
@@ -89,7 +89,6 @@ const RecommendationWidget = () => {
     try {
       setLoading(true);
 
-      // ✅ Truyền dữ liệu sản phẩm vào model Gemini
       const productData = allProducts
         .map(
           (product) =>
